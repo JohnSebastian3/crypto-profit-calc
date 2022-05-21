@@ -15,7 +15,7 @@ I used the coin price history property to create a way to determine what the pri
 
 ## Optimizations
 
-Optimizations planned are refactoring code and validating date to avoid NaN values.
+Optimizations planned are refactoring code, validating date to avoid NaN values, and allowing for various other currencies.
 
 ## Lessons Learned:
 
