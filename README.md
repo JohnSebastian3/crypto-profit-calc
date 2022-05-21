@@ -2,31 +2,25 @@
 This site lets you input how much you invested in a certain coin at a specific date. Then, it shows you how much you would have today. Currently, it only supports USD.
 I built this using HTML, CSS, and JavaScript. For the market information, I used Coin Gecko's Crypto API, which can be found here: https://www.coingecko.com/en/api/documentation
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://cryptospect.netlify.app/
 
-![alt tag](http://placecorgi.com/1200/650)
+<!-- ![alt tag](http://placecorgi.com/1200/650) -->
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+The first thing I did was find and learn how to use the CoinGecko API. CoinGecko is a website that has current prices of hundreds of cryptocurrencies.
+I used the coin price history property to create a way to determine what the price of the coin was at a valid date. Then, there is the ability to enter how much you have invested into which coin exactly at what date. The app will then get the price of the coin at that time and spit out your return. Currently in progress is working on the CSS.
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+Optimizations planned are refactoring code and validating date to avoid NaN values.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+During this project, I learned how to work with API's, especially those with less robust documentation. I learned how to fetch and then how to parse the response for 
+the information I was hoping to glean. 
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
 
